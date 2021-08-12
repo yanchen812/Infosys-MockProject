@@ -1,0 +1,7 @@
+package com.infosys.dao;
+
+
+@Repository
+public interface EmployeeDAO extends JpaRepository<Employee, Long>{
+
+}
